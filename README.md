@@ -24,12 +24,12 @@ This is a stripped down package without all necessary dependencies installed.
 
 The following packages are required:
 - [VRC SDK](https://vrchat.com/home/download) compatible with v2022.04.20.16.26
-- [UdonSharp](https://github.com/MerlinVR/UdonSharp/releases/tag/v0.20.3) because the new ClientSim did not work for me
+- [UdonSharp](https://github.com/MerlinVR/UdonSharp/releases/tag/v0.20.3) 
 - [USharpVideo](https://github.com/MerlinVR/USharpVideo) v1
 - [ArchiTechAnon ProTV](https://booth.pm/en/items/2536209) v2.2
 
 The following packages are recommended:
-- [CyanEmu](https://github.com/CyanLaser/CyanEmu/releases/tag/v0.3.10)
+- [CyanEmu](https://github.com/CyanLaser/CyanEmu/releases/tag/v0.3.10) because the new ClientSim did not work for me
 
 ## 2. Performance
 
