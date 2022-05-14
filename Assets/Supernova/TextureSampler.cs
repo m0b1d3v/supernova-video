@@ -8,6 +8,7 @@ namespace Supernova
      */
     public class TextureSampler : UdonSharpBehaviour
     {
+
         /**
          * Pixel information from the render texture is input to this texture2D for processing
          */
@@ -88,9 +89,7 @@ namespace Supernova
             
             texture2D.ReadPixels(sampleSpace, 0, 0, false);
             var textureData = texture2D.GetPixels(0, 0, 1, pixelColumnSampleHeight);
-            
-            Debug.LogWarning("Texture sampler: " + textureData[0]);
-            
+
             // Alert all of our texture readers that there is a new pixel intensity to process
 
             foreach (var textureReader in textureReaders)
