@@ -53,7 +53,6 @@ namespace Supernova
             if (texture2D == null
                 || textureReaders == null
                 || textureReaders.Length == 0
-                || texture2D.width < xPixelColumnSamplePosition
                 || texture2D.height < yPixelColumnSamplePosition + pixelColumnSampleHeight
             )
             {
