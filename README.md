@@ -1,6 +1,8 @@
 # Supernova Video
 
-This is a video-processing system meant to read pixels on a screen and use that value to toggle certain objects in a VR world.
+This asset was developed for the Supernova charity event as a one-off use.
+
+It is a video-processing system meant to read pixels on a screen and use that value to toggle certain objects in a VR world.
 An example would be a pixels grayscale intensity being read, with each five percent increase toggling one of a set of twenty objects.
 With this, all instances of a VR world rendering the same video stream can have a synced toggle experience with a crafted video stream.
 This is essentially a subset of [Lox's Shader Motion](https://gitlab.com/lox9973/ShaderMotion).
@@ -18,9 +20,6 @@ A value of .05 would mean the 1st child is activated.
 A value of .97 would mean the 20th child is activated.
 
 ## 1. Installation
-
-A convenient Unity install package can be found on the [releases page](https://git.mobiusk.com/mobi/supernova-video/releases).
-This is a stripped down package without all necessary dependencies installed.
 
 The following packages are required:
 - [VRC SDK](https://vrchat.com/home/download) compatible with v2022.04.20.16.26
